@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+p{
+    font-size: 10px;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+
+}
+
+.products {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 28vw;
+}
+
+.productTitle{
+    margin: 10px 0px;
+}
+
+.price{
+    margin-top: 10px;
+    color: "#f4f4f4";
+}
+
+.productImg {
+    width: 100%;
+    aspect-ratio: 3/2;
+    object-fit: cover;
+    max-width: 200px;
+}
+
+
